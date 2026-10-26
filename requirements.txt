@@ -1,0 +1,7 @@
+# Python 3.11 recommended. MLX inference requires Apple Silicon / Metal.
+# Direct dependencies only; historical experiment versions were not locked.
+datasets
+Pillow
+torch
+mlx-vlm
+matplotlib

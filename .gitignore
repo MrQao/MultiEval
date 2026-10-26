@@ -1,0 +1,36 @@
+# Python / virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Local editor and OS state
+.idea/
+.vscode/
+.DS_Store
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local data, model files and generated experiment artifacts
+/data/
+/results/
+/runs/
+/checkpoints/
+/cache/
+/blur_*.jpg
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.log
